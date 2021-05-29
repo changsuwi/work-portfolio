@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/work-portfolio/static/css/main.afe98ea0.chunk.css",
-    "main.js": "/work-portfolio/static/js/main.666f7e63.chunk.js",
-    "main.js.map": "/work-portfolio/static/js/main.666f7e63.chunk.js.map",
+    "main.css": "/work-portfolio/static/css/main.6695131f.chunk.css",
+    "main.js": "/work-portfolio/static/js/main.65fca886.chunk.js",
+    "main.js.map": "/work-portfolio/static/js/main.65fca886.chunk.js.map",
     "runtime-main.js": "/work-portfolio/static/js/runtime-main.8150ed7b.js",
     "runtime-main.js.map": "/work-portfolio/static/js/runtime-main.8150ed7b.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/work-portfolio/static/css/2.4c97ca4f.chunk.css",
@@ -12,10 +12,10 @@
     "static/js/3.012dcc0d.chunk.js.map": "/work-portfolio/static/js/3.012dcc0d.chunk.js.map",
     "index.html": "/work-portfolio/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/work-portfolio/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.afe98ea0.chunk.css.map": "/work-portfolio/static/css/main.afe98ea0.chunk.css.map",
+    "static/css/main.6695131f.chunk.css.map": "/work-portfolio/static/css/main.6695131f.chunk.css.map",
     "static/js/2.97ad107d.chunk.js.LICENSE.txt": "/work-portfolio/static/js/2.97ad107d.chunk.js.LICENSE.txt",
-    "static/media/Carousel-1.96a66de0.jpeg": "/work-portfolio/static/media/Carousel-1.96a66de0.jpeg",
-    "static/media/App.css": "/work-portfolio/static/media/Carousel-2.92bbd71c.png",
+    "static/media/Carousel-1.5f322e35.jpeg": "/work-portfolio/static/media/Carousel-1.5f322e35.jpeg",
+    "static/media/App.css": "/work-portfolio/static/media/Carousel-2.86963017.png",
     "static/media/Cypress.c07cf66b.png": "/work-portfolio/static/media/Cypress.c07cf66b.png",
     "static/media/Golang.32deeee2.png": "/work-portfolio/static/media/Golang.32deeee2.png",
     "static/media/NodeJS.2cf7fd70.png": "/work-portfolio/static/media/NodeJS.2cf7fd70.png",
@@ -24,14 +24,14 @@
     "static/media/article-1.d6fc0e63.jpeg": "/work-portfolio/static/media/article-1.d6fc0e63.jpeg",
     "static/media/article-2.82777d08.jpeg": "/work-portfolio/static/media/article-2.82777d08.jpeg",
     "static/media/article-3.8ce5544b.jpeg": "/work-portfolio/static/media/article-3.8ce5544b.jpeg",
-    "static/media/line-travel.93c8a62c.png": "/work-portfolio/static/media/line-travel.93c8a62c.png",
-    "static/media/protostar.67f5b4ce.png": "/work-portfolio/static/media/protostar.67f5b4ce.png"
+    "static/media/line-travel.bbd69657.png": "/work-portfolio/static/media/line-travel.bbd69657.png",
+    "static/media/protostar.9b58fb61.png": "/work-portfolio/static/media/protostar.9b58fb61.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8150ed7b.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.97ad107d.chunk.js",
-    "static/css/main.afe98ea0.chunk.css",
-    "static/js/main.666f7e63.chunk.js"
+    "static/css/main.6695131f.chunk.css",
+    "static/js/main.65fca886.chunk.js"
   ]
 }
