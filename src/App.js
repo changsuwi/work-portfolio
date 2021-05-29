@@ -23,7 +23,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 function TopCarousel(props) {
   return (
-    <Carousel fade interval="2000">
+    <Carousel fade interval={2000}>
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -87,7 +87,7 @@ function About(props) {
     articleUrl: 'https://medium.com/%E7%A2%BC%E8%BE%B2%E8%83%8C%E5%8C%85%E5%AE%A2/%E9%80%8F%E9%81%8Egithub-%E8%A7%B8%E7%99%BC-google-cloud-build-%E9%83%A8%E5%B1%AC%E8%87%B3-app-engine-ce525561d28c'
   }]
   const articlesTemplate = articles.map(article => (
-    <Col xs={12} sm={4}>
+    <Col xs={12} sm={4} key={article.articleUrl}>
       <Article article={article}/>
     </Col>
   ))
@@ -161,10 +161,10 @@ function Skill(props) {
 function Portfolio(props) {
   const portfolio = props.portfolio.map(work => {
     const skillList = work.skills.map(skill => (
-      <Badge variant="info">{skill}</Badge>
+      <Badge variant="info" key={skill}>{skill}</Badge>
     ))
     return (
-      <Container>
+      <Container key={work.title}>
         <Row className="work" onClick={() => openInNewTab(work.websiteUrl)}>
           <Col xs="12" md="6" className="work-img-container">
             <Image className="work-img" src={work.imgUrl} fluid/>
