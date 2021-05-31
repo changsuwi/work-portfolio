@@ -95,7 +95,7 @@ function About(props) {
     <div className="about"> 
       <Container>
         <h2 className="section-title">About Vicharm</h2>
-        <p className="about-description"> A passionate full stack web developer who cares about users' needs, clean code and software quality.</p>
+        <p className="section-description"> A passionate full stack web developer who cares about users' needs, clean code and software quality.</p>
   
         <Row>{articlesTemplate}</Row>
       </Container>
@@ -184,6 +184,7 @@ function Portfolio(props) {
   return (
     <div className="portfolio"> 
       <h2 className="section-title">Portfolio/Participated Projects</h2>
+      <p className="section-description">The public projects are listed below</p>
       {portfolio}
     </div>
   )
@@ -191,17 +192,17 @@ function Portfolio(props) {
 
 function App() {
   const portfolio = [{
-    title: 'LINE Travel home page',
+    title: 'LINE Travel Home Page',
     description: 'Building LINE Travel webpage using Vue.js. My responsibility is building search result page of articles.',
     imgUrl: linetvlImgUrl,
-    skills: ['Vue.js', 'Sass/Scss', 'Scrum'],
+    skills: ['Vue.js', 'Sass/Scss', 'Scrum development'],
     websiteUrl: 'https://travel.line.me/'
   },
   {
-    title: 'LINE Protostar webpage and CMS',
-    description: 'Building LINE Protostar webpage using prerender technology. My responsibility is building web page, CMS and server.',
+    title: 'LINE Protostar Webpage and CMS',
+    description: 'Building LINE Protostar webpage using prerender technology. My responsibility is building web page, CMS and backend services.',
     imgUrl: protostarImgUrl,
-    skills: ['Nuxt.js', 'Golang', 'Drone CI', 'Argo CD'],
+    skills: ['Nuxt.js', 'Pre-render', 'Vue.js', 'Golang'],
     websiteUrl: 'https://protostar.line.me/'
   }]
   return (
