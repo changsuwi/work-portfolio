@@ -1,5 +1,6 @@
 {
   "name": "work-portfolio",
+  "homepage": "https://changsuwi.github.io/work-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
