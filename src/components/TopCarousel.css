@@ -1,0 +1,14 @@
+.carousel img{
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  
+.carousel-caption {
+top: 50%;
+transform: translateY(-50%);
+bottom: initial;
+background: snow;
+opacity: 0.7;
+color: black;
+border-radius: 20px; 
+}

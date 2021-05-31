@@ -1,0 +1,33 @@
+.work {
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .work-img-container .overlay {
+    top: 50%;
+  }
+  
+  .work-img {
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  .work-img-container:hover .work-img {
+    opacity: 0.7;
+  }
+  
+  .work-img-container:hover .overlay {
+    opacity: 1;
+  }
+  
+  @media screen and (min-width: 768px){
+    .work {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 767px){
+    .work-content {
+      margin-top: 15px;
+    }
+  }
